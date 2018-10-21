@@ -1,0 +1,19 @@
+{
+  "name": "@passmarked/suite",
+  "version": "0.0.1",
+  "description": "Extended ligthouse suite for Passmarked",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "author": "info@passmarked.com",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "async": "^2.6.1",
+    "body-parser": "^1.18.3",
+    "lighthouse": "^3.2.1",
+    "underscore": "^1.9.1",
+    "uuid": "^3.3.2"
+  }
+}
